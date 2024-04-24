@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduHub</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="icon" href="./images/pngwing.com.png">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="./home.html"><img src="./images/pngwing.com.png" alt=""></a>
+           
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark faa" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="./home.html">Home</a></li>
+                    <li><a href="../CSE316/cse316.html">Notes</a></li>
+                    <li><a href="../Front-End/fewd.html">Practice</a></li>
+                    <li><a href="../aboutus/aboutus.html">About Us</a></li>
+                    <li><a href="../login2/index.html"><i class="fa-solid fa-user"></i></a></li>
+                   <!-- <a href="../login/signup.html"><button onclick="location.href='http://127.0.0.1:3000'">Signup</button></a>  -->
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars faa" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Welcome to EduHub</h1>
+            <p>Your one-stop destination for educational resources	</p>
+            <a href="#course1" class="hero-btn">Click Here to Explore Courses</a>
+        </div>
+
+    </section><!--header ends-->
+
+    <!--Courses-->
+<section class="course" id="course1">
+    <h1>Courses We Offer</h1>
+    <p>Currently, we have these subjects only (in the future, more will be added)</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Operating System</h3>
+            <p>Operating System subject delves into managing computer resources, facilitating program execution, and ensuring system stability. Key topics include process management, memory allocation, file systems, and security mechanisms.
+                <a href="../CSE316/cse316.html"><button class="buttonn">Click Here</button></a>
+            </p>
+        </div>
+        <div class="course-col">
+            <h3>Opertaing System Laboratory</h3>
+            <p>
+                Operating System Laboratory provides hands-on experience in implementing and experimenting with OS concepts like process management, memory allocation, file systems, and security, enhancing practical understanding through simulations and projects.
+               <a href="../OsLab/oslab.html"> <button class="buttonn">Click Here</button></a>
+            </p>
+        </div>
+        <div class="course-col">
+            <h3>Java</h3>
+            <p>The Java subject teaches programming fundamentals and advanced topics like object-oriented design, multithreading, networking, and graphical user interface development, utilizing the Java programming language forsoftware development.
+                <a href="../Java/java.html"><button class="buttonn">Click Here</button></a>
+            </p>
+        </div>
+    
+        <!--Second Row-->
+    </div>
+    <div class="row">
+        <div class="course-col">
+            <h3>Design And Analysis of Algorithm</h3>
+            <p>Design and Analysis of Algorithms subject explores techniques for designing efficient algorithms, evaluating their performance, and understanding their theoretical foundations, crucial for solving complex computational problems.
+               <a href="../DAA/daa.html"><button class="buttonn">Click Here</button></a>
+            </p>
+        </div>
+        <div class="course-col">
+            <h3>Front End Web Development</h3>
+            <p>Front End Web Development explores HTML, CSS, and JavaScript for building interactive websites. Emphasizing user interface design, accessibility, and responsiveness, it equips students with skills to create engaging web experiences tailored for diverse user needs and devices .
+                <a href="../Front-End/fewd.html"><button class="buttonn">Click Here</button></a>
+            </p>
+        </div>
+        <div class="course-col">
+            <h3>Advanced Web Development</h3>
+            <p>
+               
+Advanced Web Development covers cutting-edge technologies and techniques such as server-side programming, databases, frameworks, and APIs, advancing skills in building scalable, secure, and dynamic web applications for modern digital environments.<br>
+               <a href="../Back-End/bewd.html"> <button class="buttonn">Click Here</button></a>
+            </p>
+        </div>
+        
+    </div>
+
+</section><!--section ends here-->
+
+
+<!--BOOKS-->
+<section class="books">
+    <h1>BOOKS</h1>
+    <p>Java, Operating System, and Quantitative Aptitude Books.</p>
+
+    <div class="row">
+        <div class="books-col">
+          <img src="images/java.jpg" alt="javabookiamge">
+          <a href="../Books/java.pdf" target="_blank"> <div class="layer"></div></a>
+            <h3>CSE310</h3>
+        </div>
+        <div class="books-col">
+            <img src="images/os1.jpg" alt="javabookiamge">
+           <a href="../Books/os.pdf" target="_blank"><div class="layer"></div></a>
+            <h3>CSE316</h3>
+        </div>
+        <div class="books-col">
+            <img src="images/pea.jpg" alt="javabookiamge">
+            <a href="../Books/pea.pdf" target="_blank"><div class="layer"></div></a>
+            <h3>PEA305</h3>
+        </div>
+    </div>
+    
+
+</section>
+
+<!--Testimonials-->
+
+<section class="testimonials">
+    <h1>Feedback From Our Users</h1>
+    <p>
+        "Review of our website have been provided below by users."</p>
+
+    <div class="row">
+        <div class="testimonial-col">
+            <img src="images/raj.jpeg" alt="">
+            <div>
+                <p>
+                    This website earns a solid 4 out of 5 stars for its diverse educational content, including notes and books. It's a valuable resource for learners, offering comprehensive study materials.</p>
+                <h3>Raj Gupta</h3>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+
+            </div>
+        </div>
+        <div class="testimonial-col">
+            <img src="images/sid.jpeg" alt="">
+            <div>
+                <p>Edu Hub impresses with its wide range of educational resources, including notes and books. While navigation is smooth, additional interactive features could enhance the user experience further.</p>
+                <h3>Siddhant Dubey</h3>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke starcolor"></i>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!--Contact US-->
+<section class="cta">
+    <h1>If you have any inquiries or suggestions <br>Feel free to</h1>
+    <a href="../Contactus/contactus.html" class="hero-btn">Contact Us</a>
+
+
+</section>
+
+
+<!-----Footer------>
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Edu Hub is dedicated to providing a wealth of educational resources, including meticulously crafted notes and a diverse selection of books.<br>Our mission is to empower learners in their pursuit of knowledge</p>
+    <div class="icons">
+        <a href="https://www.linkedin.com/in/adarshverma02/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/iam_adarsh04/" target="_blank"></a><i class="fa-brands fa-instagram"></i></a>
+        <a href="" target="_blank"></a><i class="fa-brands fa-facebook"></i></a>
+        <a href="" target="_blank"></a><i class="fa-brands fa-twitter"></i></a>
+
+
+
+    </div>
+
+</section>
+
+
+
+
+
+    <script src="home.js"> </script>
+</body>
+</html>
